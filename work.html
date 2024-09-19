@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Trabajo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Ingresar</button>
+            <p id="errorMessage"></p><br>
+            <p style="color: grey;">By: Josue Moreno</p>
+        </form>
+    </div>
+
+    <div id="mainPage" class="hidden">
+        <h2>Bienvenido, <span id="userFullName"></span></h2>
+        <p>Email: <span id="userEmail"></span></p>
+        <p>Teléfono: <span id="userPhone"></span></p>
+        <button id="logoutButton">Cerrar Sesión</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

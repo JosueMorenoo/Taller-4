@@ -1,0 +1,70 @@
+body {
+    font-family: monospace, sans-serif;
+    background-image: url('https://fotografias.lasexta.com/clipping/cmsimages02/2019/04/16/ACC84DDD-9104-4DFE-AF62-86F7BBF28C13/97.jpg?crop=1280,720,x0,y44&width=1600&height=900&optimize=high&format=webply');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.login-container {
+    background-color: rgb(1, 22, 60);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #2946a5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+#mainPage {
+    text-align: center;
+    color: white; 
+}
